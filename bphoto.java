@@ -1,3 +1,10 @@
+/*
+Farmer John is arranging his N cows in a line to take a photo (1≤N≤100,000). The height of the ith cow in sequence is hi, and the heights of all cows are distinct.
+As with all photographs of his cows, FJ wants this one to come out looking as nice as possible. He decides that cow i looks "unbalanced" if Li and Ri differ by more than factor of 2, where Li and Ri are the number of cows taller than i on her left and right, respectively. That is, i is unbalanced if the larger of Li and Ri is strictly more than twice the smaller of these two numbers. FJ is hoping that not too many of his cows are unbalanced.
+
+Please help FJ compute the total number of unbalanced cows.
+*/
+
 import java.io.*;
 import java.util.*;
 
